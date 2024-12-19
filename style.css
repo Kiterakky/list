@@ -1,0 +1,26 @@
+
+
+
+ul{
+    display: flex;
+    width: fit-content;
+    flex-direction: column-reverse;
+    padding: 0;
+    
+    
+}
+
+li{
+    display: flex;
+    list-style: none;
+    padding: 4px;
+    }
+
+li:nth-child(odd){
+    background-color: aliceblue;
+}
+
+input{
+    border: 1px solid;
+    border-radius: 2px;
+}
